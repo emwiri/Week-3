@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+ul {
+    list-style: none;
+}
+.menu {
+    padding-left: 40px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+li {
+    padding-top: 15px;
+    font-weight: 100;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.page {
+    text-align: center;
+    padding-top: 300px;
+}
+
+h5 {
+    font-weight: 100;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    padding-top: 10px;
+    padding-left: 18px;
+    cursor: pointer;
+}
+
+.btn-close {
+    opacity: 0.3;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+.one-black {
+    background-color: black;
+    width: 65%;
+    max-width: 480px;
+    min-width: 320px;
+    transition-delay: 0.4s;
+}
+.two-red {
+    background-color: red;
+    width: 88%;
+    transition-delay: 0.2s;}
+.three-white {
+    background-color: #fff;
+    width: 88%;
+    position: relative;
+    transition-delay: 0.1s;
+}
+
+.nav.visible {
+    transform: translateX(0);
+  }
+.one-black.visible {
+    transition-delay: 0s;
+  }
+.two-red.visible {
+    transition-delay: 0.3s;
+  }
+.three-white.visible {
+    transition-delay: 0.5s;
+  }
+
